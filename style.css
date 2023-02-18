@@ -1,10 +1,14 @@
 .navbar{
-    background-color: rgb(189, 72, 72) !important;
+    background-color: rgb(105, 82, 82) !important;
   
 }
 .nav-link{
-    color: white!important;
+    color: rgb(196, 73, 73)!important;
     font-weight: bold !important;
+}
+.nav-link:hover{
+    color: rgb(196, 73, 73);
+    text-decoration: underline;
 }
 
 .fa-shopping-cart,.fa-user-circle-o {
@@ -14,10 +18,10 @@
 .fa-truck,.fa-headphones,.fa-thumbs-up{
     font-size: 50px !important;
     margin-right: 10px;
-    color: #D32F2F !important;
+    color: rgb(211, 92, 92)!important;
 }
 h3{
-    color: #D32F2F;
+    color: rgb(216, 49, 49);
 }
 .card1,.card2,.card3{
     display:flex;
@@ -52,25 +56,30 @@ h3{
     height:auto !important;
     margin-bottom: 30px;
     }
+.card:hover{
+    border-color: lightgreen;
+    transition-property: initial;
+}
 
  .btn-primary{
      width: 100%;
-     background-color: #D32F2F !important;
+     background-color: rgb(105, 82, 82) !important;
  }  
  .heading{
      text-align: center;
      font-weight: bold;
-     color: #D32F2F !important;
+     color: rgb(105, 82, 82)!important;
      margin: 20px;
       
  } 
 .heading > h1{
+    color: red;
     text-shadow: 2px 2px 4px gray;
 }
 
 .footer{
     width: 100%;
-    background-color: #D32F2F !important;
+    background-color: rgb(105, 82, 82) !important;
     height: 50px;
     
 }
