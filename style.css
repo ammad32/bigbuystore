@@ -1,0 +1,94 @@
+.navbar{
+    background-color: rgb(189, 72, 72) !important;
+  
+}
+.nav-link{
+    color: white!important;
+    font-weight: bold !important;
+}
+
+.fa-shopping-cart,.fa-user-circle-o {
+    font-size: 32px !important;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #D32F2F !important;
+}
+h3{
+    color: #D32F2F;
+}
+.card1,.card2,.card3{
+    display:flex;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+}
+
+.newarrivals{
+    margin-top: 50px;
+    margin-right: 59px;
+    
+}
+.card-text{
+    font-weight: bold;
+}
+
+.card{
+    width: 270px;
+    height:auto !important;
+    margin-bottom: 30px;
+    }
+
+ .btn-primary{
+     width: 100%;
+     background-color: #D32F2F !important;
+ }  
+ .heading{
+     text-align: center;
+     font-weight: bold;
+     color: #D32F2F !important;
+     margin: 20px;
+      
+ } 
+.heading > h1{
+    text-shadow: 2px 2px 4px gray;
+}
+
+.footer{
+    width: 100%;
+    background-color: #D32F2F !important;
+    height: 50px;
+    
+}
+.footer > div{
+    text-align: center;
+    align-items: center;
+}
+h4{
+    color: white !important;
+}
+
+
+
+@media  screen and (max-width: 600px){
+    .card1,.card2,.card3 {
+        width: 100%;
+    }
+
+
+
+  }
