@@ -1,13 +1,12 @@
 .navbar{
-    background-color: rgb(105, 82, 82) !important;
+    background-color: rgb(89, 233, 53) !important;
   
 }
 .nav-link{
-    color: rgb(196, 73, 73)!important;
+    color: rgb(245, 237, 237)!important;
     font-weight: bold !important;
 }
 .nav-link:hover{
-    color: rgb(196, 73, 73);
     text-decoration: underline;
 }
 
@@ -18,10 +17,10 @@
 .fa-truck,.fa-headphones,.fa-thumbs-up{
     font-size: 50px !important;
     margin-right: 10px;
-    color: rgb(211, 92, 92)!important;
+    color: rgb(89, 233, 53)!important;
 }
 h3{
-    color: rgb(216, 49, 49);
+    color: rgb(89, 233, 53);
 }
 .card1,.card2,.card3{
     display:flex;
@@ -61,9 +60,14 @@ h3{
     transition-property: initial;
 }
 
+
+
+
+
+
  .btn-primary{
      width: 100%;
-     background-color: rgb(105, 82, 82) !important;
+     background-color: rgb(89, 233, 53) !important;
  }  
  .heading{
      text-align: center;
@@ -73,23 +77,217 @@ h3{
       
  } 
 .heading > h1{
-    color: red;
-    text-shadow: 2px 2px 4px gray;
+    color: rgb(89, 233, 53);
+    text-shadow: 2px 2px 4px black;
 }
 
-.footer{
-    width: 100%;
-    background-color: rgb(105, 82, 82) !important;
-    height: 50px;
-    
-}
-.footer > div{
+
+
+
+
+
+
+
+
+
+.section {
+    background-color: rgb(89, 233, 53);
+    padding: 50px;
+
+  }
+  
+  .section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .section a {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 13px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .section a:hover{
+      background-color: rgb(30, 148, 30);
+  
+  }
+
+
+
+
+
+  #contact {
+    background-color: #f9f9f9;
+    padding: 50px;
+  }
+  
+  #contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  #contact form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  #contact form button {
+    background-color: rgb(89, 233, 53);
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  
+  #contact .contact-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  #contact .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #contact .contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .bigbuy {
     text-align: center;
-    align-items: center;
-}
-h4{
-    color: white !important;
-}
+  }
+  
+  .bigbuy img {
+    max-width: 300px;
+  }
+  
+  .bigbuy p {
+    margin-top: 30px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+  }
+  
+  footer h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  footer input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  footer button {
+    background-color: rgb(89, 233, 53);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+  }
+  
+  footer li {
+    margin: 0 10px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  footer .social-icons {
+    margin-top: 30px;
+  }
+  
+  footer .social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    transition: all 0.2s;
+  }
+  
+  footer .social-icons i:hover {
+    transform: scale(1.2);
+  }
+  
+  footer .social-icons .fa-facebook {
+    color: #dadde2;
+  }
+  
+  footer .social-icons .fa-twitter {
+    color: #00acee;
+  }
+  
+  footer .social-icons .fa-instagram {
+    color: #e4405f;
+  }
 
 
 
